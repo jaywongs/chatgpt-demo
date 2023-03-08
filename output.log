@@ -1,0 +1,1258 @@
+nohup: ignoring input
+
+> novel-gpt@0.0.1 start
+> astro dev
+
+  🚀  astro  v2.0.17 started in 100ms
+  
+  ┃ Local    http://localhost:3000/
+  ┃ Network  use --host to expose
+  
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+01:12:40 PM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+01:28:55 PM [astro] update /output.log
+01:34:46 PM [serve] 404                               /setup.cgi
+01:34:46 PM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+01:34:59 PM [astro] update /output.log
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+
+- /root/chatgpt/chatgpt-demo
+
+Refer to docs https://vitejs.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+[2K[1G[1A01:51:05 PM [astro] update /output.log (x2)
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+02:00:57 PM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+02:09:17 PM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+02:13:50 PM [astro] update /output.log
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A02:14:59 PM [astro] update /output.log (x2)
+02:19:49 PM [serve] 404                       /manager/text/list
+02:19:49 PM [astro] update /output.log
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A02:25:13 PM [astro] update /output.log (x2)
+ error   fetch failed
+  File:
+    /root/chatgpt/chatgpt-demo/node_modules/undici/index.js:109:13
+  Code:
+    108 |     } catch (err) {
+    > 109 |       Error.captureStackTrace(err, this)
+          |             ^
+      110 |       throw err
+      111 |     }
+      112 |   }
+  Stacktrace:
+TypeError: fetch failed
+    at Proxy.fetch (/root/chatgpt/chatgpt-demo/node_modules/undici/index.js:109:13)
+    at async Module.post (/root/chatgpt/chatgpt-demo/src/pages/api/generate.ts:25:20)
+    at async call (file:///root/chatgpt/chatgpt-demo/node_modules/astro/dist/core/endpoint/index.js:71:20)
+    at async call (file:///root/chatgpt/chatgpt-demo/node_modules/astro/dist/core/endpoint/dev/index.js:15:10)
+    at async handleRoute (file:///root/chatgpt/chatgpt-demo/node_modules/astro/dist/vite-plugin-astro-server/route.js:117:20)
+    at async run (file:///root/chatgpt/chatgpt-demo/node_modules/astro/dist/vite-plugin-astro-server/request.js:46:14)
+    at async runWithErrorHandling (file:///root/chatgpt/chatgpt-demo/node_modules/astro/dist/vite-plugin-astro-server/controller.js:65:5)
+    at async handleRequest (file:///root/chatgpt/chatgpt-demo/node_modules/astro/dist/vite-plugin-astro-server/request.js:40:3)
+
+  Cause:
+SocketError: other side closed
+    at TLSSocket.onSocketEnd (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:980:22)
+    at TLSSocket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+02:28:55 PM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+02:33:24 PM [astro] update /output.log
+02:56:56 PM [serve] 404                            /manager/html
+02:56:56 PM [astro] update /output.log
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A03:22:35 PM [astro] update /output.log (x2)
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+03:32:18 PM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+03:37:18 PM [astro] update /output.log
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A03:43:57 PM [astro] update /output.log (x2)
+ error   terminated
+  File:
+    /root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49
+  Code:
+    1922 |       if (isReadable(stream)) {
+    > 1923 |         fetchParams.controller.controller.error(new TypeError('terminated', {
+           |                                                 ^
+      1924 |           cause: isErrorLike(reason) ? reason : undefined
+      1925 |         }))
+      1926 |       }
+  Stacktrace:
+TypeError: terminated
+    at Fetch.onAborted (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49)
+    at Fetch.emit (node:events:513:28)
+    at Fetch.terminate (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:90:10)
+    at Object.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:2066:34)
+    at Request.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/core/request.js:268:27)
+    at errorRequest (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1756:13)
+    at TLSSocket.onSocketClose (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1012:5)
+    at TLSSocket.emit (node:events:525:35)
+    at node:net:322:12
+    at TCP.done (node:_tls_wrap:588:7)
+
+  Cause:
+SocketError: other side closed
+    at TLSSocket.onSocketEnd (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:980:22)
+    at TLSSocket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+03:52:18 PM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+04:05:38 PM [astro] update /output.log
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A04:22:52 PM [astro] update /output.log (x2)
+ error   terminated
+  File:
+    /root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49
+  Code:
+    1922 |       if (isReadable(stream)) {
+    > 1923 |         fetchParams.controller.controller.error(new TypeError('terminated', {
+           |                                                 ^
+      1924 |           cause: isErrorLike(reason) ? reason : undefined
+      1925 |         }))
+      1926 |       }
+  Stacktrace:
+TypeError: terminated
+    at Fetch.onAborted (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49)
+    at Fetch.emit (node:events:513:28)
+    at Fetch.terminate (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:90:10)
+    at Object.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:2066:34)
+    at Request.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/core/request.js:268:27)
+    at errorRequest (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1756:13)
+    at TLSSocket.onSocketClose (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1012:5)
+    at TLSSocket.emit (node:events:525:35)
+    at node:net:322:12
+    at TCP.done (node:_tls_wrap:588:7)
+
+  Cause:
+SocketError: other side closed
+    at TLSSocket.onSocketEnd (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:980:22)
+    at TLSSocket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+05:15:00 PM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+05:24:33 PM [astro] update /output.log
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A05:26:48 PM [astro] update /output.log (x2)
+ error   terminated
+  File:
+    /root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49
+  Code:
+    1922 |       if (isReadable(stream)) {
+    > 1923 |         fetchParams.controller.controller.error(new TypeError('terminated', {
+           |                                                 ^
+      1924 |           cause: isErrorLike(reason) ? reason : undefined
+      1925 |         }))
+      1926 |       }
+  Stacktrace:
+TypeError: terminated
+    at Fetch.onAborted (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49)
+    at Fetch.emit (node:events:513:28)
+    at Fetch.terminate (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:90:10)
+    at Object.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:2066:34)
+    at Request.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/core/request.js:268:27)
+    at errorRequest (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1756:13)
+    at TLSSocket.onSocketClose (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1012:5)
+    at TLSSocket.emit (node:events:525:35)
+    at node:net:322:12
+    at TCP.done (node:_tls_wrap:588:7)
+
+  Cause:
+SocketError: other side closed
+    at TLSSocket.onSocketEnd (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:980:22)
+    at TLSSocket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+05:29:04 PM [astro] update /output.log
+05:36:05 PM [serve] 404                 /boaform/admin/formLogin
+05:36:05 PM [astro] update /output.log
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A05:38:47 PM [astro] update /output.log (x2)
+05:58:09 PM [serve] 404                                      /ip
+05:58:09 PM [astro] update /output.log
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A06:12:36 PM [astro] update /output.log (x2)
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+06:20:48 PM [astro] update /output.log
+06:32:47 PM [serve] 404                                      /ip
+06:32:47 PM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+06:42:20 PM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+06:49:08 PM [astro] update /output.log
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A06:49:32 PM [astro] update /output.log (x2)
+ error   terminated
+  File:
+    /root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49
+  Code:
+    1922 |       if (isReadable(stream)) {
+    > 1923 |         fetchParams.controller.controller.error(new TypeError('terminated', {
+           |                                                 ^
+      1924 |           cause: isErrorLike(reason) ? reason : undefined
+      1925 |         }))
+      1926 |       }
+  Stacktrace:
+TypeError: terminated
+    at Fetch.onAborted (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49)
+    at Fetch.emit (node:events:513:28)
+    at Fetch.terminate (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:90:10)
+    at Object.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:2066:34)
+    at Request.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/core/request.js:268:27)
+    at errorRequest (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1756:13)
+    at TLSSocket.onSocketClose (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1012:5)
+    at TLSSocket.emit (node:events:525:35)
+    at node:net:322:12
+    at TCP.done (node:_tls_wrap:588:7)
+
+  Cause:
+SocketError: other side closed
+    at TLSSocket.onSocketEnd (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:980:22)
+    at TLSSocket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+07:10:48 PM [astro] update /output.log
+ error   terminated
+  File:
+    /root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49
+  Code:
+    1922 |       if (isReadable(stream)) {
+    > 1923 |         fetchParams.controller.controller.error(new TypeError('terminated', {
+           |                                                 ^
+      1924 |           cause: isErrorLike(reason) ? reason : undefined
+      1925 |         }))
+      1926 |       }
+  Stacktrace:
+TypeError: terminated
+    at Fetch.onAborted (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49)
+    at Fetch.emit (node:events:513:28)
+    at Fetch.terminate (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:90:10)
+    at Object.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:2066:34)
+    at Request.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/core/request.js:268:27)
+    at errorRequest (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1756:13)
+    at TLSSocket.onSocketClose (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1012:5)
+    at TLSSocket.emit (node:events:525:35)
+    at node:net:322:12
+    at TCP.done (node:_tls_wrap:588:7)
+
+  Cause:
+SocketError: other side closed
+    at TLSSocket.onSocketEnd (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:980:22)
+    at TLSSocket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+07:12:57 PM [astro] update /output.log
+ error   terminated
+  File:
+    /root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49
+  Code:
+    1922 |       if (isReadable(stream)) {
+    > 1923 |         fetchParams.controller.controller.error(new TypeError('terminated', {
+           |                                                 ^
+      1924 |           cause: isErrorLike(reason) ? reason : undefined
+      1925 |         }))
+      1926 |       }
+  Stacktrace:
+TypeError: terminated
+    at Fetch.onAborted (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49)
+    at Fetch.emit (node:events:513:28)
+    at Fetch.terminate (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:90:10)
+    at Object.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:2066:34)
+    at Request.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/core/request.js:268:27)
+    at errorRequest (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1756:13)
+    at TLSSocket.onSocketClose (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1012:5)
+    at TLSSocket.emit (node:events:525:35)
+    at node:net:322:12
+    at TCP.done (node:_tls_wrap:588:7)
+
+  Cause:
+SocketError: other side closed
+    at TLSSocket.onSocketEnd (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:980:22)
+    at TLSSocket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+07:23:11 PM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+07:26:13 PM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+07:26:31 PM [astro] update /output.log
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A08:02:40 PM [astro] update /output.log (x2)
+ error   terminated
+  File:
+    /root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49
+  Code:
+    1922 |       if (isReadable(stream)) {
+    > 1923 |         fetchParams.controller.controller.error(new TypeError('terminated', {
+           |                                                 ^
+      1924 |           cause: isErrorLike(reason) ? reason : undefined
+      1925 |         }))
+      1926 |       }
+  Stacktrace:
+TypeError: terminated
+    at Fetch.onAborted (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49)
+    at Fetch.emit (node:events:513:28)
+    at Fetch.terminate (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:90:10)
+    at Object.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:2066:34)
+    at Request.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/core/request.js:268:27)
+    at errorRequest (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1756:13)
+    at TLSSocket.onSocketClose (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1012:5)
+    at TLSSocket.emit (node:events:525:35)
+    at node:net:322:12
+    at TCP.done (node:_tls_wrap:588:7)
+
+  Cause:
+SocketError: other side closed
+    at TLSSocket.onSocketEnd (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:980:22)
+    at TLSSocket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+08:16:30 PM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+08:18:21 PM [astro] update /output.log
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A08:26:05 PM [astro] update /output.log (x2)
+ error   terminated
+  File:
+    /root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49
+  Code:
+    1922 |       if (isReadable(stream)) {
+    > 1923 |         fetchParams.controller.controller.error(new TypeError('terminated', {
+           |                                                 ^
+      1924 |           cause: isErrorLike(reason) ? reason : undefined
+      1925 |         }))
+      1926 |       }
+  Stacktrace:
+TypeError: terminated
+    at Fetch.onAborted (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49)
+    at Fetch.emit (node:events:513:28)
+    at Fetch.terminate (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:90:10)
+    at Object.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:2066:34)
+    at Request.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/core/request.js:268:27)
+    at errorRequest (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1756:13)
+    at TLSSocket.onSocketClose (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1012:5)
+    at TLSSocket.emit (node:events:525:35)
+    at node:net:322:12
+    at TCP.done (node:_tls_wrap:588:7)
+
+  Cause:
+SocketError: other side closed
+    at TLSSocket.onSocketEnd (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:980:22)
+    at TLSSocket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+08:26:25 PM [astro] update /output.log
+08:28:33 PM [serve] 404                      /client/get_targets
+08:28:33 PM [astro] update /output.log
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A08:39:17 PM [astro] update /output.log (x2)
+08:39:18 PM [serve] 404                       /_profiler/phpinfo
+08:39:18 PM [astro] update /output.log
+08:39:18 PM [serve] 404                      /debug/default/view
+08:39:18 PM [astro] update /output.log
+08:39:18 PM [serve] 404                             /config.json
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+08:43:28 PM [astro] update /output.log
+ error   terminated
+  File:
+    /root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49
+  Code:
+    1922 |       if (isReadable(stream)) {
+    > 1923 |         fetchParams.controller.controller.error(new TypeError('terminated', {
+           |                                                 ^
+      1924 |           cause: isErrorLike(reason) ? reason : undefined
+      1925 |         }))
+      1926 |       }
+  Stacktrace:
+TypeError: terminated
+    at Fetch.onAborted (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49)
+    at Fetch.emit (node:events:513:28)
+    at Fetch.terminate (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:90:10)
+    at Object.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:2066:34)
+    at Request.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/core/request.js:268:27)
+    at errorRequest (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1756:13)
+    at TLSSocket.onSocketClose (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1012:5)
+    at TLSSocket.emit (node:events:525:35)
+    at node:net:322:12
+    at TCP.done (node:_tls_wrap:588:7)
+
+  Cause:
+SocketError: other side closed
+    at TLSSocket.onSocketEnd (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:980:22)
+    at TLSSocket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+08:45:48 PM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+08:45:50 PM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+08:45:53 PM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+08:45:56 PM [astro] update /output.log
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A08:51:47 PM [astro] update /output.log (x2)
+ error   terminated
+  File:
+    /root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49
+  Code:
+    1922 |       if (isReadable(stream)) {
+    > 1923 |         fetchParams.controller.controller.error(new TypeError('terminated', {
+           |                                                 ^
+      1924 |           cause: isErrorLike(reason) ? reason : undefined
+      1925 |         }))
+      1926 |       }
+  Stacktrace:
+TypeError: terminated
+    at Fetch.onAborted (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49)
+    at Fetch.emit (node:events:513:28)
+    at Fetch.terminate (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:90:10)
+    at Object.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:2066:34)
+    at Request.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/core/request.js:268:27)
+    at errorRequest (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1756:13)
+    at TLSSocket.onSocketClose (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1012:5)
+    at TLSSocket.emit (node:events:525:35)
+    at node:net:322:12
+    at TCP.done (node:_tls_wrap:588:7)
+
+  Cause:
+SocketError: other side closed
+    at TLSSocket.onSocketEnd (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:980:22)
+    at TLSSocket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+09:10:46 PM [astro] update /output.log
+ error   terminated
+  File:
+    /root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49
+  Code:
+    1922 |       if (isReadable(stream)) {
+    > 1923 |         fetchParams.controller.controller.error(new TypeError('terminated', {
+           |                                                 ^
+      1924 |           cause: isErrorLike(reason) ? reason : undefined
+      1925 |         }))
+      1926 |       }
+  Stacktrace:
+TypeError: terminated
+    at Fetch.onAborted (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49)
+    at Fetch.emit (node:events:513:28)
+    at Fetch.terminate (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:90:10)
+    at Object.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:2066:34)
+    at Request.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/core/request.js:268:27)
+    at errorRequest (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1756:13)
+    at TLSSocket.onSocketClose (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1012:5)
+    at TLSSocket.emit (node:events:525:35)
+    at node:net:322:12
+    at TCP.done (node:_tls_wrap:588:7)
+
+  Cause:
+SocketError: other side closed
+    at TLSSocket.onSocketEnd (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:980:22)
+    at TLSSocket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+09:14:27 PM [astro] update /output.log
+09:18:50 PM [serve] 404                                  /ip.php
+09:18:50 PM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+09:29:02 PM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+09:31:28 PM [astro] update /output.log
+ error   terminated
+  File:
+    /root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49
+  Code:
+    1922 |       if (isReadable(stream)) {
+    > 1923 |         fetchParams.controller.controller.error(new TypeError('terminated', {
+           |                                                 ^
+      1924 |           cause: isErrorLike(reason) ? reason : undefined
+      1925 |         }))
+      1926 |       }
+  Stacktrace:
+TypeError: terminated
+    at Fetch.onAborted (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49)
+    at Fetch.emit (node:events:513:28)
+    at Fetch.terminate (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:90:10)
+    at Object.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:2066:34)
+    at Request.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/core/request.js:268:27)
+    at errorRequest (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1756:13)
+    at TLSSocket.onSocketClose (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1012:5)
+    at TLSSocket.emit (node:events:525:35)
+    at node:net:322:12
+    at TCP.done (node:_tls_wrap:588:7)
+
+  Cause:
+SocketError: other side closed
+    at TLSSocket.onSocketEnd (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:980:22)
+    at TLSSocket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+09:36:30 PM [astro] update /output.log
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A09:52:42 PM [astro] update /output.log (x2)
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+10:01:35 PM [astro] update /output.log
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A10:08:00 PM [astro] update /output.log (x2)
+ error   terminated
+  File:
+    /root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49
+  Code:
+    1922 |       if (isReadable(stream)) {
+    > 1923 |         fetchParams.controller.controller.error(new TypeError('terminated', {
+           |                                                 ^
+      1924 |           cause: isErrorLike(reason) ? reason : undefined
+      1925 |         }))
+      1926 |       }
+  Stacktrace:
+TypeError: terminated
+    at Fetch.onAborted (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49)
+    at Fetch.emit (node:events:513:28)
+    at Fetch.terminate (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:90:10)
+    at Object.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:2066:34)
+    at Request.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/core/request.js:268:27)
+    at errorRequest (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1756:13)
+    at TLSSocket.onSocketClose (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1012:5)
+    at TLSSocket.emit (node:events:525:35)
+    at node:net:322:12
+    at TCP.done (node:_tls_wrap:588:7)
+
+  Cause:
+SocketError: other side closed
+    at TLSSocket.onSocketEnd (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:980:22)
+    at TLSSocket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+10:09:47 PM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+10:43:18 PM [astro] update /output.log
+ error   terminated
+  File:
+    /root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49
+  Code:
+    1922 |       if (isReadable(stream)) {
+    > 1923 |         fetchParams.controller.controller.error(new TypeError('terminated', {
+           |                                                 ^
+      1924 |           cause: isErrorLike(reason) ? reason : undefined
+      1925 |         }))
+      1926 |       }
+  Stacktrace:
+TypeError: terminated
+    at Fetch.onAborted (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49)
+    at Fetch.emit (node:events:513:28)
+    at Fetch.terminate (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:90:10)
+    at Object.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:2066:34)
+    at Request.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/core/request.js:268:27)
+    at errorRequest (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1756:13)
+    at TLSSocket.onSocketClose (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1012:5)
+    at TLSSocket.emit (node:events:525:35)
+    at node:net:322:12
+    at TCP.done (node:_tls_wrap:588:7)
+
+  Cause:
+SocketError: other side closed
+    at TLSSocket.onSocketEnd (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:980:22)
+    at TLSSocket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+10:47:53 PM [astro] update /output.log
+ error   terminated
+  File:
+    /root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49
+  Code:
+    1922 |       if (isReadable(stream)) {
+    > 1923 |         fetchParams.controller.controller.error(new TypeError('terminated', {
+           |                                                 ^
+      1924 |           cause: isErrorLike(reason) ? reason : undefined
+      1925 |         }))
+      1926 |       }
+  Stacktrace:
+TypeError: terminated
+    at Fetch.onAborted (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49)
+    at Fetch.emit (node:events:513:28)
+    at Fetch.terminate (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:90:10)
+    at Object.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:2066:34)
+    at Request.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/core/request.js:268:27)
+    at errorRequest (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1756:13)
+    at TLSSocket.onSocketClose (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1012:5)
+    at TLSSocket.emit (node:events:525:35)
+    at node:net:322:12
+    at TCP.done (node:_tls_wrap:588:7)
+
+  Cause:
+SocketError: other side closed
+    at TLSSocket.onSocketEnd (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:980:22)
+    at TLSSocket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+10:50:20 PM [astro] update /output.log
+10:58:23 PM [serve] 404                                      /ip
+10:58:23 PM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+11:04:04 PM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+11:04:07 PM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+11:04:10 PM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+11:10:24 PM [astro] update /output.log
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A11:15:22 PM [astro] update /output.log (x2)
+12:00:40 AM [serve] 404                                  /ip.php
+12:00:40 AM [astro] update /output.log
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A12:20:27 AM [astro] update /output.log (x2)
+ error   terminated
+  File:
+    /root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49
+  Code:
+    1922 |       if (isReadable(stream)) {
+    > 1923 |         fetchParams.controller.controller.error(new TypeError('terminated', {
+           |                                                 ^
+      1924 |           cause: isErrorLike(reason) ? reason : undefined
+      1925 |         }))
+      1926 |       }
+  Stacktrace:
+TypeError: terminated
+    at Fetch.onAborted (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:1923:49)
+    at Fetch.emit (node:events:513:28)
+    at Fetch.terminate (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:90:10)
+    at Object.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/fetch/index.js:2066:34)
+    at Request.onError (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/core/request.js:268:27)
+    at errorRequest (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1756:13)
+    at TLSSocket.onSocketClose (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:1012:5)
+    at TLSSocket.emit (node:events:525:35)
+    at node:net:322:12
+    at TCP.done (node:_tls_wrap:588:7)
+
+  Cause:
+SocketError: other side closed
+    at TLSSocket.onSocketEnd (/root/chatgpt/chatgpt-demo/node_modules/undici/lib/client.js:980:22)
+    at TLSSocket.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+12:21:01 AM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+12:23:40 AM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+12:53:49 AM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+12:54:48 AM [astro] update /output.log
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A12:59:05 AM [astro] update /output.log (x2)
+01:44:43 AM [serve] 404                             /favicon.ico
+01:44:43 AM [astro] update /output.log
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A01:54:27 AM [astro] update /output.log (x2)
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+02:17:44 AM [astro] update /output.log
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A02:20:29 AM [astro] update /output.log (x2)
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+02:24:49 AM [astro] update /output.log
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A02:26:03 AM [astro] update /output.log (x2)
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A02:54:39 AM [astro] update /output.log (x3)
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+02:59:46 AM [astro] update /output.log
+03:17:14 AM [serve] 404                 /boaform/admin/formLogin
+03:17:14 AM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+03:33:45 AM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+03:38:00 AM [astro] update /output.log
+03:43:52 AM [serve] 404                                      /ip
+03:43:52 AM [astro] update /output.log
+03:57:33 AM [serve] 404                            /private/.env
+03:57:33 AM [astro] update /output.log
+03:57:33 AM [serve] 404                            /private/.env
+03:57:33 AM [astro] update /output.log
+03:57:33 AM [serve] 404                               /rest/.env
+03:57:34 AM [astro] update /output.log
+03:57:34 AM [serve] 404                               /rest/.env
+03:57:34 AM [astro] update /output.log
+03:57:34 AM [serve] 404                                /api/.env
+03:57:34 AM [astro] update /output.log
+03:57:34 AM [serve] 404                                /api/.env
+03:57:34 AM [astro] update /output.log
+03:57:35 AM [serve] 404                            /sources/.env
+03:57:35 AM [astro] update /output.log
+03:57:35 AM [serve] 404                            /sources/.env
+03:57:35 AM [astro] update /output.log
+03:57:35 AM [serve] 404                                 /cp/.env
+03:57:35 AM [astro] update /output.log
+03:57:35 AM [serve] 404                                 /cp/.env
+03:57:35 AM [astro] update /output.log
+03:57:35 AM [serve] 404             /enviroments/.env.production
+03:57:35 AM [astro] update /output.log
+03:57:35 AM [serve] 404             /enviroments/.env.production
+03:57:35 AM [astro] update /output.log
+03:57:36 AM [serve] 404                               /apps/.env
+03:57:36 AM [astro] update /output.log
+03:57:36 AM [serve] 404                               /apps/.env
+03:57:36 AM [astro] update /output.log
+03:57:36 AM [serve] 404                            /.env.project
+03:57:36 AM [astro] update /output.log
+03:57:36 AM [serve] 404                            /.env.project
+03:57:36 AM [astro] update /output.log
+03:57:36 AM [serve] 404                                /app/.env
+03:57:36 AM [astro] update /output.log
+03:57:36 AM [serve] 404                                /app/.env
+03:57:36 AM [astro] update /output.log
+03:57:37 AM [serve] 404                             /docker/.env
+03:57:37 AM [astro] update /output.log
+03:57:37 AM [serve] 404                             /docker/.env
+03:57:37 AM [astro] update /output.log
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A03:57:37 AM [astro] update /output.log (x2)
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A03:57:37 AM [astro] update /output.log (x3)
+03:57:37 AM [serve] 404                            /laravel/.env
+03:57:37 AM [astro] update /output.log
+03:57:37 AM [serve] 404                            /laravel/.env
+03:57:37 AM [astro] update /output.log
+03:57:38 AM [serve] 404                        /development/.env
+03:57:38 AM [astro] update /output.log
+03:57:38 AM [serve] 404                        /development/.env
+03:57:38 AM [astro] update /output.log
+03:57:38 AM [serve] 404                              /fedex/.env
+03:57:38 AM [astro] update /output.log
+03:57:38 AM [serve] 404                              /fedex/.env
+03:57:38 AM [astro] update /output.log
+03:57:38 AM [serve] 404                               /.env.dist
+03:57:38 AM [astro] update /output.log
+03:57:38 AM [serve] 404                               /.env.dist
+03:57:38 AM [astro] update /output.log
+03:57:39 AM [serve] 404                        /.env.development
+03:57:39 AM [astro] update /output.log
+03:57:39 AM [serve] 404                        /.env.development
+03:57:39 AM [astro] update /output.log
+03:57:39 AM [serve] 404                              /local/.env
+03:57:39 AM [astro] update /output.log
+03:57:39 AM [serve] 404                              /local/.env
+03:57:39 AM [astro] update /output.log
+03:57:39 AM [serve] 404                             /script/.env
+03:57:39 AM [astro] update /output.log
+03:57:40 AM [serve] 404                             /script/.env
+03:57:40 AM [astro] update /output.log
+03:57:40 AM [serve] 404                                /cms/.env
+03:57:40 AM [astro] update /output.log
+03:57:40 AM [serve] 404                                /cms/.env
+03:57:40 AM [astro] update /output.log
+03:57:40 AM [serve] 404                                /.env.old
+03:57:40 AM [astro] update /output.log
+03:57:40 AM [serve] 404                                /.env.old
+03:57:40 AM [astro] update /output.log
+03:57:41 AM [serve] 404                                /live_env
+03:57:41 AM [astro] update /output.log
+03:57:41 AM [serve] 404                                /live_env
+03:57:41 AM [astro] update /output.log
+03:57:41 AM [serve] 404                               /.env.save
+03:57:41 AM [astro] update /output.log
+03:57:41 AM [serve] 404                               /.env.save
+03:57:41 AM [astro] update /output.log
+03:57:41 AM [serve] 404                               /.env.prod
+03:57:41 AM [astro] update /output.log
+03:57:42 AM [serve] 404                               /.env.prod
+03:57:42 AM [astro] update /output.log
+03:57:42 AM [serve] 404                        /enviroments/.env
+03:57:42 AM [astro] update /output.log
+03:57:42 AM [serve] 404                        /enviroments/.env
+03:57:42 AM [astro] update /output.log
+03:57:42 AM [serve] 404                         /.env.production
+03:57:42 AM [astro] update /output.log
+03:57:42 AM [serve] 404                         /.env.production
+03:57:42 AM [astro] update /output.log
+03:57:43 AM [serve] 404                             /shared/.env
+03:57:43 AM [astro] update /output.log
+03:57:43 AM [serve] 404                             /shared/.env
+03:57:43 AM [astro] update /output.log
+03:57:43 AM [serve] 404                               /core/.env
+03:57:43 AM [astro] update /output.log
+03:57:43 AM [serve] 404                               /core/.env
+03:57:43 AM [astro] update /output.log
+03:57:44 AM [serve] 404                             /system/.env
+03:57:44 AM [astro] update /output.log
+03:57:44 AM [serve] 404                             /system/.env
+03:57:44 AM [astro] update /output.log
+03:57:44 AM [serve] 404                          /admin-app/.env
+03:57:44 AM [astro] update /output.log
+03:57:44 AM [serve] 404                          /admin-app/.env
+03:57:44 AM [astro] update /output.log
+03:57:44 AM [serve] 404                               /back/.env
+03:57:44 AM [astro] update /output.log
+03:57:45 AM [serve] 404                               /back/.env
+03:57:45 AM [astro] update /output.log
+03:57:45 AM [serve] 404                        /application/.env
+03:57:45 AM [astro] update /output.log
+03:57:45 AM [serve] 404                        /application/.env
+03:57:45 AM [astro] update /output.log
+03:57:45 AM [serve] 404                      /frontend_dev.php/$
+03:57:45 AM [astro] update /output.log
+03:57:46 AM [serve] 404                      /debug/default/view
+03:57:46 AM [astro] update /output.log
+03:57:46 AM [serve] 404                             /config.json
+03:57:46 AM [astro] update /output.log
+03:57:46 AM [serve] 404                                   /.json
+03:57:46 AM [astro] update /output.log
+03:57:46 AM [serve] 404                                /info.php
+03:57:46 AM [astro] update /output.log
+03:57:46 AM [serve] 404                       /_profiler/phpinfo
+03:57:46 AM [astro] update /output.log
+03:57:47 AM [serve] 404                             /phpinfo.php
+03:57:47 AM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+04:02:34 AM [astro] update /output.log
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A04:07:46 AM [astro] update /output.log (x2)
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+04:11:03 AM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+04:16:49 AM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+04:17:37 AM [astro] update /output.log
+04:23:13 AM [serve] 404                             /favicon.ico
+04:23:13 AM [astro] update /output.log
+The request url "/root/chatgpt/chatgpt-demo/.env" is outside of Vite serving allow list.
+[2K[1G[1A04:30:55 AM [astro] update /output.log (x2)
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+04:34:48 AM [astro] update /output.log
+04:37:25 AM [serve] 404                                  /ip.php
+04:37:25 AM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+04:44:47 AM [astro] update /output.log
+ error   Unexpected end of JSON input
+SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parseJSONFromBytes (node:internal/deps/undici/undici:6498:19)
+    at successSteps (node:internal/deps/undici/undici:6472:27)
+    at node:internal/deps/undici/undici:1145:60
+    at node:internal/process/task_queues:140:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:137:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+04:49:34 AM [astro] update /output.log
+05:11:22 AM [astro] reload /src/components/Generator.tsx
+05:11:22 AM [astro] reload /src/components/Header.astro
+05:11:22 AM [astro] reload /src/components/MessageItem.tsx
+05:11:22 AM [astro] reload /src/components/SystemRoleSettings.tsx
+05:11:22 AM [astro] reload /src/layouts/Layout.astro
+05:11:22 AM [astro] reload /src/pages/api/generate.ts
+05:11:22 AM [astro] reload /src/pages/index.astro
+05:11:22 AM [astro] reload /src/components/Footer.astro
+05:11:22 AM [astro] update /output.log
+05:12:18 AM [astro] reload /src/components/Footer.astro
+05:12:18 AM [astro] update /output.log
