@@ -77,14 +77,33 @@
 ![image](https://cdn.staticaly.com/gh/yzh990918/static@master/20230310/image.e0n7c0zaen4.webp)
 
 ### 部署在 Docker
-在部署应用之前，请确保 `.env` 配置正常。
+部署之前请确认 `.env` 文件正常配置，环境变量参考下方文档, [Docker Hub address](https://hub.docker.com/r/ddiu8081/chatgpt-demo).
+
+**一键运行**
+```bash
+docker run --name=chatgpt-demo --volume=/path/.env:/usr/src/.env:rw -p 3000:3000 -d ddiu8081/chatgpt-demo:latest
+```
+`/path/.env` 代表环境变量的路径。
+
+**使用 Docker compose**
+```yml
+version: '3'
+
+services:
+  chatgpt-demo:
+    image: ddiu8081/chatgpt-demo:latest
+    container_name: chatgpt-demo
+    restart: always
+    ports:
+      - '3000:3000'
+    volumes:
+      - .env:/usr/src/.env
+```
 
 ```bash
-# build
-docker-compose build .
-# run
-docker-compose up -d
-# stop
+# start
+docker compose up -d
+# down
 docker-compose down
 ```
 
@@ -103,7 +122,7 @@ docker-compose down
 | `OPENAI_API_BASE_URL` | 请求 OpenAI API 的自定义 Base URL. | `https://api.openai.com` |
 | `HEAD_SCRIPTS` | 在页面的 `</head>` 之前注入分析或其他脚本 | `null` |
 | `SECRET_KEY` | 项目的秘密字符串。用于生成 API 调用的签名 | `null` |
-| `SITE_PASSWORD` | 为网站设置密码。如果未设置，则该网站将是公开的 | `null` |
+| `SITE_PASSWORD` | 为网站设置密码，支持使用英文逗号创建多个密码。如果未设置，则该网站将是公开的 | `null` |
 | `OPENAI_API_MODEL` | 使用的 OpenAI 模型. [模型列表](https://platform.openai.com/docs/api-reference/models/list) | `gpt-3.5-turbo` |
 
 ## 常见问题
@@ -119,6 +138,10 @@ A: Node 版本需要在 `v18` 或者更高，参考: https://github.com/ddiu8081
 Q: Accelerate domestic access without the need for proxy deployment tutorial?
 
 A: 你可以参考此教程: https://github.com/ddiu8081/chatgpt-demo/discussions/270
+
+Q: `PWA` 不工作？
+
+A: 当前的 PWA 不支持 Netlify 部署，您可以选择 vercel 或 node 部署。
 
 ## 参与贡献
 
