@@ -7,11 +7,12 @@ import type { APIRoute } from 'astro'
 
 const apiKey = import.meta.env.OPENAI_API_KEY
 const httpsProxy = import.meta.env.HTTPS_PROXY
-const baseUrl = ((import.meta.env.OPENAI_API_BASE_URL) || 'https://api.openai.com').trim().replace(/\/$/, '')
+const baseUrl = ((import.meta.env.OPENAI_API_BASE_URL) || 'http://localhost:5000').trim().replace(/\/$/, '')
 const sitePassword = import.meta.env.SITE_PASSWORD || ''
 const passList = sitePassword.split(',') || []
 
 export const post: APIRoute = async(context) => {
+  console.log('~~~~~~');
   const body = await context.request.json()
   const { sign, time, messages, pass } = body
   if (!messages) {
@@ -35,15 +36,26 @@ export const post: APIRoute = async(context) => {
       },
     }), { status: 401 })
   }
-  const initOptions = generatePayload(apiKey, messages)
+  const msg = messages?.[messages.length - 1]?.content || '';
+  console.log('ask:', msg);
+  // const initOptions = generatePayload(apiKey, messages)
   // #vercel-disable-blocks
-  if (httpsProxy)
-    initOptions.dispatcher = new ProxyAgent(httpsProxy)
+  // if (httpsProxy)
+  //   initOptions.dispatcher = new ProxyAgent(httpsProxy)
   // #vercel-end
 
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-expect-error
-  const response = await fetch(`${baseUrl}/v1/chat/completions`, initOptions).catch((err: Error) => {
+  // initOptions.body = 
+  const initOptions = {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ query: msg }),
+    // dispatcher: new ProxyAgent(httpsProxy)
+  };
+  const response = await fetch(`${baseUrl}/api/ask`, initOptions).catch((err: Error) => {
     console.error(err)
     return new Response(JSON.stringify({
       error: {
@@ -54,4 +66,19 @@ export const post: APIRoute = async(context) => {
   }) as Response
 
   return parseOpenAIStream(response) as Response
+
+
+
+
+  // const response = await fetch(`${baseUrl}/api/ask`, JSON.stringify(initOptions)).catch((err: Error) => {
+  //   console.error(err)
+  //   return new Response(JSON.stringify({
+  //     error: {
+  //       code: err.name,
+  //       message: err.message,
+  //     },
+  //   }), { status: 500 })
+  // }) as Response
+
+  // return response
 }
